@@ -1,0 +1,22 @@
+
+CI_Ajax_DataTables(Plugin_JQuery)
+
+Meload data dari database dengan Ajax dan Datatable(Plugin_JQuery) menggunakan Codeigniter
+
+
+
+Sebuah website yang cepat merupakan dambaan setiap developer web.  
+Banyak keluhan dari developer web tentang kecepatan akses ketika mengunakan datatable.
+
+Ya, datatable memang meload semua data dari suatu tabel pada suatu database sesuai dengan query.
+
+Kemudian baru di rubah kedalam bentuk datatable sehingga ada filter, sort, dan pagination. 
+Ketika data yang diload masih berjumlah ratusan record tidak ada masalah terlihat.
+
+Akan tetapi ketika data yang diload telah mencapai puluhan ribu record akan terlihat masalah lamanya data yang diload sehingga sering mengalami not responding pada browser.
+
+Jika dilimit datanya menggunakan pagination bawaan codeigniter. Akan membuat akses load data menjadi lebih cepat. 
+Akan tetapi, masih kurang cepat dikarenakan pagination bawaan codeigniter harus me-reload semua page (halaman) untuk menampilkan data dan juga filter yang juga harus mereload semua page untuk mencari data tertentu.
+
+Adakah cara agar load data dari database menjadi cepat dan tetap menggunakan datatable?
+bantuan AJAX
